@@ -1,0 +1,576 @@
+/* login and register */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  height: 80vh;
+}
+
+.resgister-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  /* color: white !important; */
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-image: linear-gradient(to right, rgb(206, 138, 243), rgb(100, 157, 255));
+  /* background-image: linear-gradient(to right, rgb(0, 157, 255),white,rgb(206, 138, 243)); */
+  /* background-image: url('https://t4.ftcdn.net/jpg/01/23/60/47/240_F_123604771_IOtdy5cM3yLshKlH01ynRUsvHmbfUvmd.jpg'); */
+  background-size: cover;
+  border-radius: 6px;
+}
+
+.mark-1 {
+  height: 0vh;
+  width: 500px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.log_in {
+  width: 15%;
+  padding: 0.6%;
+  border: none;
+  color: #9a6946;
+  background-color: #f1caaf;
+}
+
+.log_in:hover {
+  background-color: #e3b595;
+}
+
+.log_box {
+  border: 2px solid black;
+  height: 50vh;
+  width: 40vw;
+}
+
+.hii {
+  display: flex;
+  justify-content: center;
+  color: black;
+  
+}
+
+.bg_i_log {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/011/561/871/original/aesthetic-abstract-modern-brown-background-illustration-perfect-for-wallpaper-backdrop-postcard-background-banner-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  color: #b88968;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.upper-info {
+  text-align: center;
+  color: black;
+}
+
+.buttonn:hover {
+  background-color: rgb(27, 14, 14);
+}
+
+.buttonn {
+    color: white;
+    background-color: black;
+    width: 46%;
+    border-radius: 4px;
+    border: 0px solid white;
+    height: 32px;
+    font-size: 16px;
+    text-align: center;
+  
+}
+
+.bg_i {
+  /* background-image: url('https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg'); */
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.login-container {
+  background-image: linear-gradient(to right, rgb(100, 157, 255), rgb(206, 138, 243));
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 100vh;
+  /* Adjust as needed */
+}
+
+.center-text {
+  text-align: center;
+}
+
+/*transaction page*/
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+}
+
+/* antd icons*/
+.switch-icon {
+  border: 1px solid rgba(0, 0, 0, 0.677);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.anticon svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon {
+  color: black;
+}
+
+.inactive-icon {
+  color: gray;
+}
+
+.positive {
+  color: green;
+
+}
+
+
+.negative {
+  color: red;
+
+}
+
+
+
+/* landing page */
+#navbb {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+
+}
+
+#navbb a {
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#navbb a:hover{
+  transition:800ms;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.spotify {
+  font-size: 2em;
+}
+
+.navul a {
+  margin: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navul a:hover {
+  background-image: url('https://media.istockphoto.com/id/185007737/photo/dark-blue-grunge-background.jpg?s=612x612&w=0&k=20&c=YIHLCULIeavPuYWz16ecgycBWdZn7XbB0qMjoi9r9p8=');
+
+}
+
+.bg {
+  height: 90vh;
+  width: 100;
+  background-image: url('https://media.istockphoto.com/id/185007737/photo/dark-blue-grunge-background.jpg?s=612x612&w=0&k=20&c=YIHLCULIeavPuYWz16ecgycBWdZn7XbB0qMjoi9r9p8=');
+  /* background-image: url('https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80'); */
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.phone_spo {
+  height: 90%;
+  margin-top: 5%;
+  margin-left: 18%;
+  transition: 200ms;
+}
+
+.phone_spo:hover {
+
+  transform: rotatez(1deg);
+}
+
+
+.content1 {
+
+  margin-top: 13%;
+  margin-left: 0px;
+}
+
+.content1 p {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3.45em;
+}
+
+.button {
+  background-color: white;
+  border-radius: 30px;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  border: 1px solid white;
+  font-size: 0.7em;
+}
+
+.btn {
+  color: black;
+}
+
+.btn:hover {
+  transform: scaleX(1.01);
+}
+
+.button:hover {
+  transition: 900ms;
+  transform: scaleX(1.01);
+}
+
+h2 {
+  text-align: center;
+  padding: 7%;
+}
+
+h2:hover {
+  transition: 900ms;
+  transform: scaleX(1.01);
+
+}
+
+.part2 {
+  width: 100;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rectangle {
+  transition: 1s;
+
+}
+
+.circle {
+  margin: auto;
+  border-radius: 50%;
+  height: 100px;
+  background-image: url('https://media.istockphoto.com/id/185007737/photo/dark-blue-grunge-background.jpg?s=612x612&w=0&k=20&c=YIHLCULIeavPuYWz16ecgycBWdZn7XbB0qMjoi9r9p8=');
+  background-size: cover;
+  transition: 1s;
+  width: 100px;
+}
+
+.circle:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.circle .ii {
+  margin-top: 23px;
+  margin-left: 24px;
+  color: white;
+  font-size: 2.4em;
+}
+
+
+.rectangle h6 {
+  padding: 6%;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.rectangle p {
+  text-align: center;
+}
+
+.part3,
+.part5 {
+  margin-top: 7%;
+  /* height:55vh; */
+  width: 100;
+  background-image: url('https://media.istockphoto.com/id/185007737/photo/dark-blue-grunge-background.jpg?s=612x612&w=0&k=20&c=YIHLCULIeavPuYWz16ecgycBWdZn7XbB0qMjoi9r9p8=');
+  background-size: cover;
+  margin-bottom: 7%;
+}
+
+.part3 p,
+.part5 p {
+  text-align: center;
+  padding: 7%;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3.9em;
+}
+
+.bbb {
+  padding: 50px;
+  text-align: center;
+
+}
+
+footer {
+  background-image: url('https://media.istockphoto.com/id/185007737/photo/dark-blue-grunge-background.jpg?s=612x612&w=0&k=20&c=YIHLCULIeavPuYWz16ecgycBWdZn7XbB0qMjoi9r9p8=');
+  background-size: cover;
+}
+
+.font_color {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.svg-inline--fa{
+  color: white;
+  height: 1.5em;
+  padding-right: 8px;
+}
+
+.ram1{
+  margin-top: 20px;
+  background-image: url('https://media.istockphoto.com/id/1407063872/vector/modern-abstract-background-with-black-gradient-abstract-black-business-background.jpg?s=612x612&w=0&k=20&c=6QftyGArm3LTpQsLw29DpZ9ZB42HMNK-wboAWyFZvto=');
+border-radius: 5px;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  height: 70vh;
+  background-size: cover;
+}
+.ram111{
+  margin-top: 20px;
+  background-image: url('https://media.istockphoto.com/id/1407063872/vector/modern-abstract-background-with-black-gradient-abstract-black-business-background.jpg?s=612x612&w=0&k=20&c=6QftyGArm3LTpQsLw29DpZ9ZB42HMNK-wboAWyFZvto=');
+  border-radius: 5px; 
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  height: 80vh;
+  background-size: cover;
+}
+#root{
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/003/127/955/small/abstract-white-and-grey-background-with-dynamic-waves-shape-free-vector.jpg');
+  background-size: cover;
+  height: 100vh;
+  margin-top: 0px;
+}
+.footer_base{
+  margin-bottom: 0;
+  position: fixed;
+  width: 100vw;
+}
+.text_color{
+  color: white;
+}
+.switch-icon{
+  background-color: white;
+}
+.btn{
+  background-color: white;
+  border:1px solid white  ;
+}
+.buttonnn{
+  background-color: black;
+  color: white;
+
+}
+.todolist_heading{
+  margin-top: 0px;
+  background-color: black;
+  color:white;
+
+}
+.ram2{
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/003/127/955/small/abstract-white-and-grey-background-with-dynamic-waves-shape-free-vector.jpg');
+  background-size: cover;
+}
+.ram5{
+  height: 20px;
+  width:2000px;
+}
+.ram3{
+  /* margin-top: 20px; */
+  background-image: url('https://media.istockphoto.com/id/1407063872/vector/modern-abstract-background-with-black-gradient-abstract-black-business-background.jpg?s=612x612&w=0&k=20&c=6QftyGArm3LTpQsLw29DpZ9ZB42HMNK-wboAWyFZvto=');
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  /* height: 70vh; */
+  background-size: cover; 
+  width: 100%;
+}
+.hh2{
+  color: #bdf1a9;
+  font-size: 3.7rem;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+.pp2{
+  color: white;
+text-align: center;
+  font-size  : 1.3em;
+}
+.ppp2{
+  color: white;
+text-align: center;
+  font-size  : 2.3em;
+}
+.mm1{
+text-align: center;
+  font-size  : 1.3em;
+}
+.mm3{
+  
+  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 70%;
+}
+.ram26{
+  height:260px
+}
+
+
+.button21{
+  border-radius:5px solid black;
+  margin-left: 200px;
+  height:25px;
+  width:115px;
+  margin-bottom: 10px;
+  background-color: black;
+}
+.btm90{
+  color:white;
+  height:40px;
+  width:150px;
+  text-shadow: #b88968;
+  text-decoration: none;
+}
+.button21:hover{
+  background-color: white;
+}
+.btm90:hover{
+  color:black;
+  text-shadow: #b88968;
+  text-decoration: none;
+}
+
+.shyam{
+  height:260px;
+}
+
+.button23{
+  margin-left: 100px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: black;
+  color:white;
+}
+.button23:hover{
+  background-color: white;
+  color:black;
+}
+
+.button29{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 1365px;
+  background-color: black;
+  color:white;
+}
+.button29:hover{
+  background-color: white;
+  color:black;
+}
+.button39{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 1330px;
+  background-color: black;
+  color:white;
+}
+.button39:hover{
+  background-color: white;
+  color:black;
+}
+
+.shyam98{
+  padding:100px;
+  padding-top: 0px;
+
+}
+
+.push1{
+  text-align: center;
+  text-decoration: underline;
+  color: #8fa487;
+}
+.push2{
+  color:#7995a8;
+}
+
+.pop30{
+  background-image: url('https://media.istockphoto.com/id/1407063872/vector/modern-abstract-background-with-black-gradient-abstract-black-business-background.jpg?s=612x612&w=0&k=20&c=6QftyGArm3LTpQsLw29DpZ9ZB42HMNK-wboAWyFZvto=');
+}
+
+.mohan2{
+  background-color: black;
+  height:70px;
+  width:100vw;
+  color:white;
+}
+.mohan76{
+  color:white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.mohan90{
+  color:white;
+  text-decoration: underline;
+  margin-bottom: 0px;
+}
+.mohan55{
+  background-color: black;
+  color:white;
+  margin:5px;
+}
+
+.mohan99{
+  margin-bottom: 100px;
+}
+
+.mohan100{
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/003/127/955/small/abstract-white-and-grey-background-with-dynamic-waves-shape-free-vector.jpg');
+  background-size: cover;
+  /* height: 150vh; */
+  margin-top: 0px;
+}
+
+.button233{
+  /* margin-left: 100px; */
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: black;
+  color:white;
+}
